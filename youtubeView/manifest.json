@@ -1,0 +1,17 @@
+{
+
+"manifest_version": 2,
+"name": "YoutubeViwer",
+"version": "1.0",
+"description": "Extension for google chrome to view youtube videos in pop up window in first plane",
+"homepage_url": "http://www.google.com/",
+"background":{
+	"persistent":false,
+	"scripts":["background.js"]
+	},
+"permissions": ["tabs"],
+"browser_action": {
+	"default_icon": "icon.png"
+	}
+
+}
